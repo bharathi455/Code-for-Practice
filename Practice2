@@ -1,0 +1,8 @@
+Create a new string made of the first, middle, and last characters of each input string
+
+s1="Akshsra"
+mid=int(len(s1)/2)
+x=s1[0]
+x=x+s1[mid]
+x=x+s1[-1]
+print("New string is",x)
